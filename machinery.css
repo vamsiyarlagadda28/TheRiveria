@@ -1,0 +1,144 @@
+.one{
+  box-shadow: 5px;
+  background-color: #89CFF0;
+  height: 8vh;
+  width: 100%;
+  margin-top: -1%;
+}
+
+.logo{
+  margin-top: -10%;
+}
+.lname{
+  color: black;
+  text-decoration: none;
+}
+
+.navbar {
+  padding: 0;
+  position: relative;
+  box-shadow: 5px;
+  background-color: #89CFF0;
+  height: 10vh;
+  width: 100%;
+  margin-top: 1%;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar li {
+    position: relative;
+}
+
+.navbar>ul>li {
+    white-space: nowrap;
+}
+
+.navbar a,
+  .navbar a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 20px;
+  font-family: var(--font-secondary);
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(var(--color-secondary-dark-rgb), 0.7);
+  white-space: nowrap;
+  transition: 0.3s;
+  position: relative;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
+}
+.nav_links li{
+  display: inline-block;
+  padding: 10px;
+}
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+  margin-top: 0%;
+  text-decoration: none;
+}
+
+.login{
+  color: white;
+  transition: 0.3s ease 0;
+  background-color: #5F9EA0;
+  justify-content: end;
+  padding: 7px 25px;
+  border: none;
+  border-radius: 50px;
+}
+#to1{
+  font-family: 'Times New Roman', Times, serif;
+}
+.nav_links li a:hover {
+  color: white;
+}
+
+.slider{
+  width: 100%;
+  height:900px;
+  animation: slide 25s infinite;
+}
+
+/* @keyframes slide{
+  0%{
+    background: url(https://winooskiriver.org/uploads/files/MHSCleanup2009_4.jpg);
+    background-repeat: no-repeat;
+    background-size: 1450px 700px;
+  }
+  25%{
+    background: url(https://mms.businesswire.com/media/20171011005161/en/617787/5/IMG_2715.jpg);
+    background-repeat: no-repeat;
+    background-size: 1450px 700px;
+  }
+  50%{
+    background: url(https://www.potomacriverkeepernetwork.org/wp-content/uploads/2019/03/river_cleanup3.jpg);
+    background-repeat: no-repeat;
+    background-size: 1450px 700px;
+  }
+  75%{
+    background: url(https://imgnew.outlookindia.com/public/uploads/articles/2021/1/19/Yamuna_river_PTI.jpg);
+    background-repeat: no-repeat;
+    background-size: 1450px 700px;
+  }
+  100%{
+    background: url(https://i.pinimg.com/564x/7e/c3/98/7ec398cf444d42c4b60497d658cac872.jpg);
+    background-repeat: no-repeat;
+    background-size: 1450px 700px;
+  }
+
+} */
+
+
+.m1{
+  /* display: flex; */
+  top: 5vh;
+  padding: 100px;
+}
+.m2{
+  padding: 50px;
+}
+.m1 img{
+  height: 80vh;
+  width: 100%;
+}
+.m2 img{
+  height: 80vh;
+  width: 100%;
+}
+.two
+{
+  background-color: #D3D3D3;
+  margin-top: 2.5vh;
+}
